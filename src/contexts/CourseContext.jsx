@@ -12,14 +12,11 @@ export const CourseProvider = ({ children }) => {
     const fetchCourse = async () => {
       try {
         const data = await getCourse();
-
-        // 👉 1. Luôn chờ 2 giây, ngay cả khi gọi API thành công
         setTimeout(() => {
           setCourseList(data);
           setLoading(false);
         }, 2000);
       } catch (err) {
-        // 👉 2. Nếu lỗi, cũng đợi 2 giây rồi mới set error
         setTimeout(() => {
           setError("Không thể tải dữ liệu.");
           setLoading(false);

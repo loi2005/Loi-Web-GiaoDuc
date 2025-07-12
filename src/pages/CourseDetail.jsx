@@ -5,15 +5,20 @@ import CustomButton from "../components/CustomButton";
 import ProfileTabs from "../components/ProfileTabs";
 import { Heart } from "lucide-react";
 import { useFavorites } from "../contexts/FavoriteContext";
-import ClipLoader from "react-spinners/ClipLoader";
+import { useViewed } from "../contexts/ViewedContext";
 function CourseDetail() {
   const { id } = useParams();
   const [course, setCourse] = useState();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const { toggleFavorite, isFavorite, toastMessage } = useFavorites();
+  const { toggleFavorite, isFavorite } = useFavorites();
   const favorite = isFavorite(course?.id);
-
+  const { addToHistory } = useViewed();
+  useEffect(() => {
+    if (course) {
+      addToHistory(course);
+    }
+  }, [course]);
   useEffect(() => {
     const fetchCourse = async () => {
       try {

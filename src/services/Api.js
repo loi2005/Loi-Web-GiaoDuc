@@ -4,12 +4,9 @@ const BASE_URL = "/assets/data/teacher.json";
 export const getCourse = async () => {
   try {
     const response = await axios.get(BASE_URL);
-
-    // Kiểm tra dữ liệu có đúng là mảng không
     if (!Array.isArray(response.data)) {
       throw new Error("Dữ liệu trả về không hợp lệ.");
     }
-
     return response.data;
   } catch (error) {
     console.error(" Lỗi khi gọi API:", error);
@@ -28,7 +25,6 @@ export const getCourseById = async (id) => {
 
     return teacher;
   } catch (error) {
-    console.error("Lỗi khi tải khóa học:", error);
     throw error;
   }
 };

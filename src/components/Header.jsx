@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import SideBar from "./Search&SideBar/SideBar";
 import {
   Presentation,
-  Phone,
+  History,
   LaptopMinimal,
   AlignJustify,
   LogIn,
@@ -36,9 +36,9 @@ function Header() {
             </Link>
           </li>
           <li className="hidden lg:flex">
-            <Link to="/" className={navItemClass}>
-              <Phone className="w-5" />
-              <span>Contact Us</span>
+            <Link to="/recentlyViewed" className={navItemClass}>
+              <History className="w-5" />
+              <span>Recently Viewed</span>
             </Link>
           </li>
           <li className="hidden lg:flex">

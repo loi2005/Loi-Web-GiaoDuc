@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { useCourse } from "../../contexts/CourseContext";
 import {
   Presentation,
-  Phone,
+  History,
   LogIn,
   DiamondPlus,
   X,
@@ -14,7 +14,7 @@ import SearchTeacher from "./SearchFilter"; // 👈 import component riêng
 const navLinks = [
   { icon: Presentation, text: "Courses", to: "/all-courses" },
   { icon: Heart, text: "Course Liked", to: "/favorites" },
-  { icon: Phone, text: "Contact Us", to: "/" },
+  { icon: History, text: "Recently Viewed", to: "/recentlyViewed" },
   { icon: LogIn, text: "Log in", to: null },
   { icon: DiamondPlus, text: "Sign up", to: null },
 ];

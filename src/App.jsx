@@ -6,14 +6,12 @@ import AppRoutes from "./route";
 import { CourseProvider } from "./contexts/CourseContext";
 import { FavoriteProvider } from "./contexts/FavoriteContext";
 import { Toaster } from "react-hot-toast";
-
+import { ViewedProvider } from "./contexts/ViewedContext";
 function App() {
   return (
-    <>
-      {/* Toaster nên nằm bên ngoài Providers */}
-
-      <CourseProvider>
-        <FavoriteProvider>
+    <CourseProvider>
+      <FavoriteProvider>
+        <ViewedProvider>
           <Router>
             <div className="bg-gray-800 flex flex-col min-h-screen">
               <Header />
@@ -26,9 +24,9 @@ function App() {
             </div>
           </Router>
           <Toaster position="top-center" />
-        </FavoriteProvider>
-      </CourseProvider>
-    </>
+        </ViewedProvider>
+      </FavoriteProvider>
+    </CourseProvider>
   );
 }
 

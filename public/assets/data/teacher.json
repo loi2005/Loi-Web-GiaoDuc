@@ -11,6 +11,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Hebrew"],
         "speaks": ["Spanish"],
+        "liked": "230",
+        "views": "1000",
         "specialties": "English and Hebrew Teacher with Teachers' Credential, teaching online since 2009! KIDS ADULTS",
         "information": {
           "aboutMe": {
@@ -153,6 +155,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "French"],
         "speaks": ["English", "French", "German"],
+        "liked": "130",
+        "views": "1020",
         "specialties": "Experienced language tutor for kids and adults, specializing in conversation skills.",
         "information": {
           "aboutMe": {
@@ -285,6 +289,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Business English"],
         "speaks": ["English", "German"],
+        "liked": "430",
+        "views": "743",
         "specialties": "Certified Business English coach with 10+ years helping professionals communicate clearly.",
         "information": {
           "aboutMe": {
@@ -417,6 +423,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Hebrew"],
         "speaks": ["Spanish"],
+        "liked": "135",
+        "views": "680",
         "specialties": "English and Hebrew Teacher with Teachers' Credential, teaching online since 2009! KIDS ADULTS",
         "information": {
           "aboutMe": {
@@ -556,6 +564,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Hebrew"],
         "speaks": ["Spanish"],
+        "liked": "530",
+        "views": "1270",
         "specialties": "English and Hebrew Teacher with Teachers' Credential, teaching online since 2009! KIDS ADULTS",
         "information": {
           "aboutMe": {
@@ -695,6 +705,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Hebrew"],
         "speaks": ["Spanish"],
+        "liked": "231",
+        "views": "1090",
         "specialties": "English and Hebrew Teacher with Teachers' Credential, teaching online since 2009! KIDS ADULTS",
         "information": {
           "aboutMe": {
@@ -834,6 +846,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Spanish"],
         "speaks": ["English", "Spanish", "Portuguese"],
+        "liked": "730",
+        "views": "1003",
         "specialties": "Fluent bilingual teacher helping students master conversational and academic English and Spanish.",
         "information": {
           "aboutMe": {
@@ -966,6 +980,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Chinese"],
         "speaks": ["Chinese", "English", "Japanese"],
+        "liked": "239",
+        "views": "1100",
         "specialties": "Certified English-Chinese bilingual teacher with a focus on pronunciation and speaking fluency.",
         "information": {
           "aboutMe": {
@@ -1098,6 +1114,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Swedish"],
         "speaks": ["Swedish", "English", "Norwegian"],
+        "liked": "1230",
+        "views": "1040",
         "specialties": "Native Swedish and fluent English teacher focusing on practical conversation and daily use.",
         "information": {
           "aboutMe": {
@@ -1236,6 +1254,8 @@
         "type": "PROFESSIONAL TEACHER",
         "teaches": ["English", "Korean"],
         "speaks": ["Korean", "English", "French"],
+        "liked": "930",
+        "views": "1602",
         "specialties": "Trilingual teacher focusing on English speaking, TOEFL prep, and Korean for beginners.",
         "information": {
           "aboutMe": {

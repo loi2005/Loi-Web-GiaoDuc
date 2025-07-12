@@ -1,8 +1,12 @@
 import { useCourse } from "../contexts/CourseContext";
+import { useState } from "react";
 import ClipLoader from "react-spinners/ClipLoader";
-function AllCourses() {
+function AllCourses({ viewedProducts, likedProducts }) {
   const { courseList, loading, error } = useCourse();
+  console.log("viewed", viewedProducts);
+
   const data = courseList[0]?.teachers || [];
+  const [suggestions, setSuggestions] = useState([]);
   if (loading)
     return (
       <div className="text-white text-center py-10">
@@ -15,11 +19,7 @@ function AllCourses() {
   if (error) return <p className="text-red-600">{error}</p>;
   return (
     <div>
-      <div>
-        {data.map((item) => (
-          <p key={item.id}>{item.name}</p>
-        ))}
-      </div>
+      <div>sdfsd</div>
     </div>
   );
 }
