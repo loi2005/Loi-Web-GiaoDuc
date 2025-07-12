@@ -1,9 +1,7 @@
 import { useViewed } from "../contexts/ViewedContext";
 import { Link } from "react-router-dom";
-import AllCourses from "./AllCourses";
 function RecentlyViewed() {
   const { viewed } = useViewed();
-
   return (
     <div>
       <h2 className="text-xl font-bold mb-4 text-white">
