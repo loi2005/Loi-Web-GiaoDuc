@@ -42,7 +42,6 @@ function CourseList() {
 
   const itemClass =
     "flex items-center justify-center bg-[#ffffff62] rounded-sm px-2  gap-x-1";
-
   return (
     <div>
       <div className="text-sm flex items-center">

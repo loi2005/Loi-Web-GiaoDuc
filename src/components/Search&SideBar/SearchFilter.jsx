@@ -10,21 +10,22 @@ function SearchTeacher({
   priceRange,
   setPriceRange,
 }) {
-  // Tìm kiếm + lọc giá
+ 
+  const lowerQuery = query.toLowerCase();
   const filteredData = data.filter((teacher) => {
-    const nameMatch = teacher.name?.toLowerCase().includes(query.toLowerCase());
+    const nameMatch = teacher.name?.toLowerCase().includes(lowerQuery);
     const lessonMatch = teacher.englishLessons?.some((lesson) =>
-      lesson.nameLesson?.toLowerCase().includes(query.toLowerCase())
+      lesson.nameLesson?.toLowerCase().includes(lowerQuery)
     );
     const priceMatch =
       teacher.price >= priceRange[0] && teacher.price <= priceRange[1];
 
-    // Nếu đang tìm kiếm, thì phải khớp cả giá + tên/bài học
+   
     if (query.trim() !== "") {
       return (nameMatch || lessonMatch) && priceMatch;
     }
 
-    // Nếu không tìm kiếm, chỉ lọc theo giá
+   
     return priceMatch;
   });
 
@@ -41,7 +42,7 @@ function SearchTeacher({
         />
       </div>
 
-      {/* Bộ lọc giá */}
+    
       <div className="px-2 mb-4">
         <label className="text-white/60 mb-1 block">
           Lọc theo giá: ${priceRange[0]} - ${priceRange[1]}
@@ -55,7 +56,7 @@ function SearchTeacher({
         />
       </div>
 
-      {/* Danh sách kết quả */}
+   
       {(query.trim() !== "" ||
         priceRange[0] !== 0 ||
         priceRange[1] !== 100) && (

@@ -142,7 +142,7 @@ function CourseDetail() {
           ))}
         </div>
       </div>
-      {/*  */}
+
       <div className="md:sticky md:top-4 rounded-xl h-fit overflow-hidden bg-[rgba(15,23,43,1)]">
         <iframe
           width="100%"

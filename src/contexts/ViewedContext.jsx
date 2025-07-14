@@ -16,7 +16,6 @@ export function ViewedProvider({ children }) {
 
   const addToHistory = (item) => {
     setViewed((prev) => {
-      // loại bỏ bản sao nếu đã xem
       const filtered = prev.filter((v) => v.id !== item.id);
       return [item, ...filtered].slice(0, 20);
     });

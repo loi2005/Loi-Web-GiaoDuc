@@ -1378,6 +1378,280 @@
             "date": "2025-04-30"
           }
         ]
+      },
+      {
+        "id": 11,
+        "profileImage": "https://imagesavatar-static01.italki.com/5T087597110_Avatar_1.jpg",
+        "introVideo": "https://youtu.be/vBTJGz7M2Co",
+        "name": "Emma Johansson",
+        "price": "10.50",
+        "type": "PROFESSIONAL TEACHER",
+        "teaches": ["English", "Swedish"],
+        "speaks": ["Swedish", "English", "Norwegian"],
+        "liked": "1230",
+        "views": "1040",
+        "specialties": "Native Swedish and fluent English teacher focusing on practical conversation and daily use.",
+        "information": {
+          "aboutMe": {
+            "location": "From Sweden\nLiving in Copenhagen, Denmark",
+            "interests": [
+              "Nature walks",
+              "Minimalist living",
+              "Podcasts",
+              "Baking",
+              "Digital art"
+            ]
+          },
+          "meAsATeacher": "My goal is to make every student feel confident using English or Swedish in real-life situations.",
+          "lessonsAndTeachingStyle": {
+            "script": "I use a friendly and flexible approach, combining discussion, visuals, and repetition.",
+            "materials": [
+              "Canva visuals",
+              "Slide presentations",
+              "Listening tracks",
+              "Real-life scenarios",
+              "Short stories",
+              "Role-playing tasks"
+            ]
+          },
+          "resumeCertificates": {
+            "certificates": [
+              "TEFL Certificate - Bridge Education Group - 2021",
+              "Master’s Degree in Language Education - Lund University - 2019"
+            ],
+            "teachingExperience": [
+              {
+                "year": "2021 - 2024",
+                "jobTitle": "English & Swedish Teacher",
+                "workPlace": "SpeakEasy Online School - Remote",
+                "jobDescription": "Taught students from Europe and Asia in conversational and academic English/Swedish."
+              },
+              {
+                "year": "2019 - 2021",
+                "jobTitle": "Language Instructor",
+                "workPlace": "International House Stockholm",
+                "jobDescription": "Conducted immersive Swedish classes for expats and tourists."
+              }
+            ],
+            "education": [
+              {
+                "year": "2017 - 2019",
+                "degree": "Master’s - Language Education",
+                "schoolName": "Lund University",
+                "major": "Multilingual Pedagogy"
+              },
+              {
+                "year": "2013 - 2016",
+                "degree": "Bachelor’s - English Literature",
+                "schoolName": "Uppsala University",
+                "major": "Linguistics and Education"
+              }
+            ],
+            "workExperience": [
+              {
+                "year": "2022 - 2024",
+                "role": "Private Language Coach",
+                "workPlace": "Freelance - Remote",
+                "jobDescription": "Customized lessons for professionals needing Swedish for work relocation."
+              },
+              {
+                "year": "2020 - 2021",
+                "role": "Content Developer",
+                "workPlace": "ScandiLearn",
+                "jobDescription": "Created lesson plans and exercises for beginner Swedish students."
+              },
+              {
+                "year": "2018 - 2019",
+                "role": "Teaching Assistant",
+                "workPlace": "Lund University Language Center",
+                "jobDescription": "Helped with classroom instruction and student feedback."
+              },
+              {
+                "year": "2016 - 2017",
+                "role": "Volunteer Teacher",
+                "workPlace": "Red Cross Language Support Program - Sweden",
+                "jobDescription": "Taught basic English to refugee communities."
+              }
+            ]
+          }
+        },
+        "rating": 4.93,
+        "lessonsCount": 530,
+        "studentsCount": 110,
+        "englishLessons": [
+          {
+            "id": "l601",
+            "nameLesson": "Swedish for Beginners",
+            "lessonsCount": "150 lessons completed",
+            "price": "USD 10.00+"
+          },
+          {
+            "id": "l602",
+            "nameLesson": "Daily English Practice",
+            "lessonsCount": "A2 - B2 | 300 lessons completed",
+            "price": "USD 11.00+"
+          },
+          {
+            "id": "l603",
+            "nameLesson": "Survival English for Travelers",
+            "lessonsCount": "80 lessons completed",
+            "price": "USD 9.50+"
+          }
+        ],
+        "reviews": [
+          {
+            "image": "",
+            "student": "Tomas Eriksen",
+            "comment": "Emma is very clear and kind. Her materials are amazing!",
+            "date": "2025-07-01"
+          },
+          {
+            "image": "",
+            "student": "Laura Sánchez",
+            "comment": "I learned useful everyday English quickly. Highly recommend her lessons.",
+            "date": "2025-06-10"
+          },
+          {
+            "image": "",
+            "student": "George Li",
+            "comment": "She made Swedish easy and fun to learn. Tack så mycket, Emma!",
+            "date": "2025-05-22"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "profileImage": "https://imagesavatar-static01.italki.com/3T246897690_Avatar_1.jpg",
+        "introVideo": "https://youtu.be/vxrhmbQwrV0",
+        "name": "David Kim",
+        "price": "12.00",
+        "type": "PROFESSIONAL TEACHER",
+        "teaches": ["English", "Korean"],
+        "speaks": ["Korean", "English", "French"],
+        "liked": "930",
+        "views": "1602",
+        "specialties": "Trilingual teacher focusing on English speaking, TOEFL prep, and Korean for beginners.",
+        "information": {
+          "aboutMe": {
+            "location": "From South Korea\nLiving in Vancouver, Canada",
+            "interests": [
+              "Board games",
+              "Film making",
+              "Language exchange",
+              "Basketball",
+              "Coffee brewing"
+            ]
+          },
+          "meAsATeacher": "I help students prepare for real-life speaking, job interviews, and academic English. My lessons are high-energy and personalized.",
+          "lessonsAndTeachingStyle": {
+            "script": "Each lesson includes speaking practice, vocabulary expansion, and cultural notes. I use fun and structured materials.",
+            "materials": [
+              "TOEFL/IELTS worksheets",
+              "Grammar visuals",
+              "Mini-conversations",
+              "Korean drama scripts",
+              "Audio exercises",
+              "Pronunciation challenges"
+            ]
+          },
+          "resumeCertificates": {
+            "certificates": [
+              "TESOL Certificate - University of British Columbia - 2020",
+              "TOPIK Level 6 - 2018"
+            ],
+            "teachingExperience": [
+              {
+                "year": "2020 - 2024",
+                "jobTitle": "Online English & Korean Teacher",
+                "workPlace": "Self-employed - Remote",
+                "jobDescription": "Taught over 700 lessons to international students focusing on speaking and exam skills."
+              },
+              {
+                "year": "2017 - 2019",
+                "jobTitle": "English Instructor",
+                "workPlace": "Seoul Language Institute - Seoul, Korea",
+                "jobDescription": "Led classroom and private sessions for TOEFL/IELTS candidates."
+              }
+            ],
+            "education": [
+              {
+                "year": "2013 - 2017",
+                "degree": "Bachelor’s - English Language and Culture",
+                "schoolName": "Korea University",
+                "major": "English Linguistics"
+              }
+            ],
+            "workExperience": [
+              {
+                "year": "2022 - 2024",
+                "role": "TOEFL Speaking Coach",
+                "workPlace": "iTalkie Prep Academy - Remote",
+                "jobDescription": "Helped students improve speaking scores with mock tests and targeted feedback."
+              },
+              {
+                "year": "2020 - 2021",
+                "role": "Language Content Creator",
+                "workPlace": "LinguaPop YouTube Channel",
+                "jobDescription": "Created video content teaching Korean slang and English idioms."
+              },
+              {
+                "year": "2018 - 2019",
+                "role": "Academic English Tutor",
+                "workPlace": "Korea University Writing Center",
+                "jobDescription": "Assisted students with academic writing and speaking."
+              },
+              {
+                "year": "2015 - 2016",
+                "role": "Volunteer Language Partner",
+                "workPlace": "Global Friends Korea",
+                "jobDescription": "Paired with exchange students to improve their spoken Korean and English."
+              }
+            ]
+          }
+        },
+        "rating": 4.98,
+        "lessonsCount": 710,
+        "studentsCount": 190,
+        "englishLessons": [
+          {
+            "id": "l701",
+            "nameLesson": "TOEFL Speaking Practice",
+            "lessonsCount": "300 lessons completed",
+            "price": "USD 14.00+"
+          },
+          {
+            "id": "l702",
+            "nameLesson": "Beginner Korean with English Support",
+            "lessonsCount": "250 lessons completed",
+            "price": "USD 12.00+"
+          },
+          {
+            "id": "l703",
+            "nameLesson": "English for Tech Interviews",
+            "lessonsCount": "80 lessons completed",
+            "price": "USD 15.00+"
+          }
+        ],
+        "reviews": [
+          {
+            "image": "",
+            "student": "Elena Morozova",
+            "comment": "David's TOEFL sessions boosted my speaking score. He knows exactly what examiners want!",
+            "date": "2025-06-08"
+          },
+          {
+            "image": "",
+            "student": "Minho Park",
+            "comment": "Very chill and smart teacher. His Korean-English switching is seamless!",
+            "date": "2025-05-17"
+          },
+          {
+            "image": "",
+            "student": "Sophia Dubois",
+            "comment": "He helped me prepare for my job interview in Canada. Super helpful and encouraging!",
+            "date": "2025-04-30"
+          }
+        ]
       }
     ]
   }

@@ -9,7 +9,7 @@ import {
   X,
   Heart,
 } from "lucide-react";
-import SearchTeacher from "./SearchFilter"; // 👈 import component riêng
+import SearchTeacher from "./SearchFilter";
 
 const navLinks = [
   { icon: Presentation, text: "Courses", to: "/all-courses" },
@@ -50,11 +50,9 @@ function SideBar({ type, onClose }) {
   const data = courseList[0]?.teachers || [];
   const ref = useRef();
 
-  // ✅ Quản lý query và priceFilter tại đây
   const [query, setQuery] = useState("");
   const [priceRange, setPriceRange] = useState([0, 100]);
 
-  // ✅ Xác định đang lọc hay tìm kiếm
   const isFiltering =
     query.trim() !== "" || priceRange[0] !== 0 || priceRange[1] !== 100;
 
@@ -81,7 +79,6 @@ function SideBar({ type, onClose }) {
         />
       </li>
 
-      {/* Search và Filter */}
       <SearchTeacher
         data={data}
         onClose={onClose}
@@ -91,7 +88,6 @@ function SideBar({ type, onClose }) {
         setPriceRange={setPriceRange}
       />
 
-      {/* Hiển thị menu mặc định nếu không tìm/không lọc */}
       {!isFiltering && (
         <>
           <hr className="border-white/10 my-4" />
